@@ -7,12 +7,25 @@
     font-size: 16px;
 }
 
+body {
+        background: #8340ee;
+      }
 
 nav{
     position: fixed;
     width: 100%;
     height: auto;
+    top: 0;
 }
+
+body{
+    font-family: 'Aladin', cursive;
+}
+
+.fa-toolbox{
+
+}
+
 .mt-nav{
     list-style: none;
     display: flex;
@@ -173,7 +186,11 @@ ul.mt-nav li a{
 
 /*Footer*/
 footer{
+    position: fixed;
     text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -181,6 +198,62 @@ footer{
         font-size: 0.3em;
     }
 }
+
+.request-modal-content{
+    display: none;
+    align-items: center;
+    width: 100%;
+    max-width: 330px;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 0;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    color: beige;
+    background-color: #8340ee;
+    margin-bottom: 100%;
+}
+
+.submit-request{
+    width: 40%;
+    margin-top: 10px;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    color: #fff;
+    background-color: #007bff;
+}
+
+.close-request{
+    width: 40%;
+    margin-top: 10px;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    background-color: #fff;
+    color: #007bff;
+}
+
+section{
+    margin-top: 5rem;
+}
+
+.dashboard{
+    justify-content: center;
+    display: block;
+    margin: .4em 0em;
+    padding: .5em .3em;
+    text-align: left;
+    border-bottom: .1em solid lightgrey;
+}
+
+#side-bar ul{
+    
+}
+
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
 /***********************************************************************
  *  Green Background
