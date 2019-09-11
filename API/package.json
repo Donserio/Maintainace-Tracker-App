@@ -1,0 +1,29 @@
+{
+  "name": "maintenance-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Donserio/Maintainace-Tracker-App.git"
+  },
+  "keywords": [
+    "Request",
+    "Resolve",
+    "Approve"
+  ],
+  "author": "Shoyinka Habeebullah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Donserio/Maintainace-Tracker-App/issues"
+  },
+  "homepage": "https://github.com/Donserio/Maintainace-Tracker-App#readme",
+  "dependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "express": "^4.17.1"
+  }
+}
